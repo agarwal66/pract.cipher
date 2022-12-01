@@ -1,0 +1,15 @@
+name = input("please enter your name")
+#Prateek Agarwal
+#name.count("p") , name.count(name[0]) 
+#name.count("r") , name.count(name[1])
+#name.count("a") , name.count(name[2])
+#name.count("t") , name.count(name[2])
+#name.count("e") , name.count(name[2])
+#name.count("e") , name.count(name[2])
+#name.count("e") , name.count(name[2])
+temp_var = "e"
+i = 0
+while i < len(name):
+    print(f"{name[i]} : {name.count(name[i])}")
+    i += 1
+
